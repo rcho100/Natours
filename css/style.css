@@ -23,3 +23,16 @@ body {
     line-height: 1.7;
     color: #777777;
 }
+
+.header {
+    height: 95vh;
+    /* To specify gradient, always use background property*/
+    background-image: linear-gradient(
+        to right bottom,
+        #7ed56fce,
+        #28b485d0),
+    url(../img/hero.jpg);
+    background-size: cover; 
+    /* -> this will cover whatever the width of the element it will try to fit the element in the box*/
+    background-position: top;
+}
