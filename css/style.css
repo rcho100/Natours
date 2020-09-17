@@ -22,6 +22,7 @@ body {
     font-size: 16px;
     line-height: 1.7;
     color: #777777;
+    padding: 30px;
 }
 
 .header {
@@ -35,4 +36,5 @@ body {
     background-size: cover; 
     /* -> this will cover whatever the width of the element it will try to fit the element in the box*/
     background-position: top;
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 }
