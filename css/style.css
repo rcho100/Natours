@@ -88,6 +88,10 @@ body {
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 17.4px;
+
+    animation-name: moveInFromRight;
+    animation-duration: 1.2s;
+    animation-timing-function: ease-out;
 }
 
 @keyframes moveInFromLeft {
@@ -99,6 +103,23 @@ body {
     
     80% {
         transform: translateX(10px);
+    }
+    
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes moveInFromRight {
+    /* for animations, browers are mostly optimized for opacity & transform property */
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    
+    80% {
+        transform: translateX(-10px);
     }
     
     100% {
