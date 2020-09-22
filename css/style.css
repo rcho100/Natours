@@ -60,6 +60,7 @@ body {
     whereas the tranform translate is in relation to the element itself
     This makes it possible to have this element at the center
     */
+    text-align: center;
 }
 
 .heading-primary {
@@ -67,6 +68,7 @@ body {
     text-transform: uppercase;
     backface-visibility: hidden;
     /* backface-visibility: hidden; corrects the little shaking that happens at the end in animations */
+    margin-bottom: 60px ;
 }
 
 .heading-primary-main {
