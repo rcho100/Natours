@@ -55,7 +55,7 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
     /* the top & left are in relation to the parent element
     whereas the tranform translate is in relation to the element itself
     This makes it possible to have this element at the center
