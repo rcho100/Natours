@@ -138,6 +138,17 @@ body {
     text-decoration: none;
     padding: 15px 40px;
     display: inline-block;
+    border-radius: 50px;
+    transition: all 0.2s;
+    /* this line above makes the animation between regular & hover & active smoother */
+}
+
+.btn:hover {
+transform: translateY(-3px);
+}
+
+.btn:active {
+transform: translateY(-1px);
 }
 
 .btn-white {
